@@ -79,7 +79,7 @@ $sta = $row['status'];
 <body class="container">   
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
-  <form class="form-horizontal id=cadCli" name="cadCli" method="post" action="../validar/valAlterOs.php">
+  <form class="form-horizontal id=cadCli" name="AlterOs" method="post" action="../validar/valAlterOs.php">
     <fieldset>
 
       <legend>Alterar Dados da O.S</legend>
@@ -92,14 +92,14 @@ $sta = $row['status'];
       <div class="form-group">
         <label class="col-md-4 control-label" for="idCli">Cliente </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="idCli" name="idCli" value="<?php echo $cli?>">
+          <input type="text" class="form-control input-md" id="idCli" name="idCli" readonly="true" value="<?php echo $cli?>">
         </div>
       </div>
 
       <div class="form-group">
         <label class="col-md-4 control-label" for="idApa">Aparelho </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="idApa" name="idApa" value="<?php echo $apa?>" >
+          <input type="text" class="form-control input-md" id="idApa" name="idApa" readonly="true" value="<?php echo $apa?>" >
         </div>
       </div>
 
@@ -107,7 +107,7 @@ $sta = $row['status'];
       <div class="form-group">
         <label class="col-md-4 control-label" for="idMar">Marca </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="idMar" name="idMar" value="<?php echo $mar?>">
+          <input type="text" class="form-control input-md" id="idMar" name="idMar" readonly="true" value="<?php echo $mar?>">
         </div>
       </div>
 
@@ -115,7 +115,7 @@ $sta = $row['status'];
       <div class="form-group">
         <label class="col-md-4 control-label" for="idMod">Modelo </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="idMod" name="idMod" value="<?php echo $mod?>">
+          <input type="text" class="form-control input-md" id="idMod" name="idMod" readonly="true" value="<?php echo $mod?>">
         </div>
       </div>
 
@@ -123,7 +123,7 @@ $sta = $row['status'];
       <div class="form-group">
         <label class="col-md-4 control-label" for="idSer">Serial </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="idSer" name="idSer" value="<?php echo $ser?>">
+          <input type="text" class="form-control input-md" id="idSer" name="idSer" readonly="true" value="<?php echo $ser?>">
         </div> 
       </div>
 
@@ -131,7 +131,7 @@ $sta = $row['status'];
       <div class="form-group">
         <label class="col-md-4 control-label" for="idAcs">Acessorio </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="idAcs" name="idAcs" value="<?php echo $ace?>">
+          <input type="text" class="form-control input-md" id="idAcs" name="idAcs" readonly="true" value="<?php echo $ace?>">
         </div>  
       </div>
 
@@ -139,7 +139,7 @@ $sta = $row['status'];
       <div class="form-group">
         <label class="col-md-4 control-label" for="idDef">Defeito </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="idDef" name="idDef" value="<?php echo $def?>">
+          <input type="text" class="form-control input-md" id="idDef" name="idDef" readonly="true" value="<?php echo $def?>">
         </div>
       </div>
 

@@ -44,5 +44,5 @@
       }
       echo $msg;
    }
-   //header("location: ../listar/listOs.php"); 
+   header("location: ../listar/listOs.php"); 
 ?> 
