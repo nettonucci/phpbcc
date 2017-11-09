@@ -23,5 +23,5 @@
       }
       echo $msg;
    }
-   header("location: ../listar/listPeca.php"); 
+   //header("location: ../listar/listPeca.php"); 
 ?> 

@@ -92,7 +92,7 @@ close_conexao($con);
 
             <td>
               <button type="button" class="btn btn-warning"
-              onclick="javascript:location.href='altPec.php?id=' 
+              onclick="javascript:location.href='../alterar/altPec.php?id=' 
               + <?php echo $row['id'] ?> ">
               <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
             </button>                 

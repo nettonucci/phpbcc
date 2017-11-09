@@ -55,13 +55,27 @@
 						<li class="list-inline-item">
 							<a href="https://www.facebook.com/leticia.viccioli" target="_blank" class="btn btn-default btn-lg">
 								<i class="fa fa-facebook fa-fw"></i>
-								<span class="network-name">Facebook</span>
+								<span class="network-name">Facebook Leticia</span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com/netto.nucci" target="_blank" class="btn btn-default btn-lg">
+								<i class="fa fa-facebook fa-fw"></i>
+								<span class="network-name">Facebook Netto</span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a href="https://github.com/nettonucci" target="_blank" class="btn btn-default btn-lg">
+								<i class="fa fa-github fa-fw"></i>
+								<span class="network-name">Github Netto</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
 							<a href="https://github.com/leviccioli" target="_blank" class="btn btn-default btn-lg">
 								<i class="fa fa-github fa-fw"></i>
-								<span class="network-name">Github</span>
+								<span class="network-name">Github Leticia</span>
 							</a>
 						</li>
 						<li class="list-inline-item">

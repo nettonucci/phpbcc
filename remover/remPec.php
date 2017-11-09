@@ -60,7 +60,7 @@ $val = $row['valor'];
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pesquisar <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="../listar/listCli.php">Clientes</a></li>
-              <li><a href="#">O.S</a></li>
+              <li><a href="../listar/listOs.php">O.S</a></li>
               <li><a href="../listar/listPeca.php">Peças</a></li>
             </ul>
           </li>
@@ -71,7 +71,7 @@ $val = $row['valor'];
 </nav>
 
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-<form class="form-horizontal id=cadUser" name="cadUser" method="post" action="../valivalRemPec.php">
+<form class="form-horizontal id=cadUser" name="cadUser" method="post" action="../validar/valRemPec.php">
   <fieldset>
 
     <legend>Remover Peça</legend>

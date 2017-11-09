@@ -79,7 +79,7 @@ $sta = $row['status'];
 <body class="container">   
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
-  <form class="form-horizontal id=cadCli" name="cadCli" method="post" action="../validar/valAlterCli.php">
+  <form class="form-horizontal id=cadCli" name="cadCli" method="post" action="../validar/valAlterOs.php">
     <fieldset>
 
       <legend>Alterar Dados da O.S</legend>
@@ -90,84 +90,84 @@ $sta = $row['status'];
       </div>
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Cliente </label>
+        <label class="col-md-4 control-label" for="idCli">Cliente </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtNome" name="txtNome" value="<?php echo $cli?>">
+          <input type="text" class="form-control input-md" id="idCli" name="idCli" value="<?php echo $cli?>">
         </div>
       </div>
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Aparelho </label>
+        <label class="col-md-4 control-label" for="idApa">Aparelho </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtEnd" name="txtEnd" value="<?php echo $apa?>" >
-        </div>
-      </div>
-
-
-      <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Marca </label>
-        <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtCid" name="txtCid" value="<?php echo $mar?>">
+          <input type="text" class="form-control input-md" id="idApa" name="idApa" value="<?php echo $apa?>" >
         </div>
       </div>
 
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Modelo </label>
+        <label class="col-md-4 control-label" for="idMar">Marca </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtEst" name="txtEst" value="<?php echo $mod?>">
+          <input type="text" class="form-control input-md" id="idMar" name="idMar" value="<?php echo $mar?>">
         </div>
       </div>
 
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Serial </label>
+        <label class="col-md-4 control-label" for="idMod">Modelo </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtTel" name="txtTel" value="<?php echo $ser?>">
+          <input type="text" class="form-control input-md" id="idMod" name="idMod" value="<?php echo $mod?>">
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="idSer">Serial </label>
+        <div class="col-md-5">
+          <input type="text" class="form-control input-md" id="idSer" name="idSer" value="<?php echo $ser?>">
         </div> 
       </div>
 
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Acessorio </label>
+        <label class="col-md-4 control-label" for="idAcs">Acessorio </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtCpf" name="txtCpf" value="<?php echo $ace?>">
+          <input type="text" class="form-control input-md" id="idAcs" name="idAcs" value="<?php echo $ace?>">
         </div>  
       </div>
 
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Defeito </label>
+        <label class="col-md-4 control-label" for="idDef">Defeito </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtNas" name="txtNas" value="<?php echo $def?>">
+          <input type="text" class="form-control input-md" id="idDef" name="idDef" value="<?php echo $def?>">
         </div>
       </div>
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Laudo </label>
+        <label class="col-md-4 control-label" for="idLau">Laudo </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtNas" name="txtNas"  value="<?php echo $lau?>">
+          <input type="text" size="12" class="form-control input-md" id="idLau" name="idLau" value="<?php echo $lau?>">
         </div>
       </div>
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Peça </label>
+        <label class="col-md-4 control-label" for="idPec">Peça </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtNas" name="txtNas" value="<?php echo $pec?>">
+          <input type="text" class="form-control input-md" id="idPec" name="idPec" value="<?php echo $pec?>">
         </div>
       </div>
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Valor </label>
+        <label class="col-md-4 control-label" for="idVal">Valor </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtNas" name="txtNas" value="<?php echo $val?>">
+          <input type="text" class="form-control input-md" id="idVal" name="idVal" value="<?php echo $val?>">
         </div>
       </div>
 
       <div class="form-group">
-        <label class="col-md-4 control-label" for="idNome">Status </label>
+        <label class="col-md-4 control-label" for="idSta">Status </label>
         <div class="col-md-5">
-          <input type="text" class="form-control input-md" id="txtNas" name="txtNas" value="<?php echo $sta?>">
+          <input type="text" class="form-control input-md" id="idSta" name="idSta" value="<?php echo $sta?>">
         </div>
       </div>
 

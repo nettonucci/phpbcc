@@ -13,16 +13,12 @@
    $Val = trim($_POST['idVal']);
    $Sta = trim($_POST['idSta']);
 
- echo "Cliente" .$Cli.'<br>';
 
- echo "Aparelho" .$Apa;
- echo "Laudo" .$Lau;
-    if (!empty($Cli) ){//&& !empty($Apa) && !empty($Mar) && !empty($Mod) && !empty($Ser) && !empty($Acs) && !empty($Def) && !empty($Lau) && !empty($Pec) && !empty($val) && !empty($Sta)){
+
+    if (!empty($Cli) && !empty($Apa) && !empty($Mar) && !empty($Mod) && !empty($Ser) && !empty($Acs) && !empty($Def) && !empty($Lau) && !empty($Pec) && !empty($Val) && !empty($Sta)){
       $con = open_conexao(); 
       selectDb(); 
-      $sql = "iNSERT INTO os(cliente, aparelho, marca, modelo, seriall, acessorio, defeito, laudo, peca, valor, status) values($Cli, 'tv', 'lg', '51lg', '123', 'nenhum', 'nao liga', 'em branco', 'led', 100, 'pronto')";
-        
-        //VALUES ('$Cli', '$Apa', '$Mar', '$Mod', '$Ser', '$Acs', '$Def', '$Lau', '$Pec', '$Val', '$Sta');";  
+      $sql = "INSERT INTO os(cliente, aparelho, marca, modelo, seriall, acessorio, defeito, laudo, peca, valor, status) VALUES ('$Cli', '$Apa', '$Mar', '$Mod', '$Ser', '$Acs', '$Def', '$Lau', '$Pec', '$Val', '$Sta');";
       $ins = mysql_query($sql); 
 
       if ($ins==FALSE)
@@ -34,5 +30,5 @@
       close_conexao($con); 
       echo $msg;
    }
-   //header("location: ../listar/listOs.php");
+   header("location: ../listar/listOs.php");
 ?> 

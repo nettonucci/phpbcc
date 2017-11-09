@@ -72,7 +72,7 @@ $val = $row['valor'];
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   
   
-  <form class="form-horizontal id=cadCli" name="cadCli" method="post" action="valAlterPec.php">
+  <form class="form-horizontal id=cadCli" name="cadCli" method="post" action="../validar/valAlterPec.php">
     <fieldset>
 
       <legend>Alterar informações de peça</legend>
@@ -102,7 +102,7 @@ $val = $row['valor'];
         <div class="col-md-8">
           <input id="bt_Atl" type="submit" value="Atualizar" class="btn btn-success"/>
           <button id="bt_voltar" type="button" class="btn btn-danger"
-          onclick="javascript:location.href='listPeca.php'">Voltar</button>
+          onclick="javascript:location.href='../listar/listPeca.php'">Voltar</button>
           </div>
           </div>
 
