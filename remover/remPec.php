@@ -17,7 +17,7 @@ $val = $row['valor'];
 <html>
 <head>
   <meta charset="UTF-8"> 
-  <title>Cadastrar Peça</title>
+  <title>Remover Peça</title>
 </head>
 <body class="container">  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

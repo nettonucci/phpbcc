@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
 	<meta charset="utf-8">
-	<title>Bem Vindo</title>
+	<title>Sobre</title>
 	<style rel="stylesheet" type="text/css">
 
 
